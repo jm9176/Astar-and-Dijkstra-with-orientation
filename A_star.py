@@ -6,6 +6,21 @@ input = [[0,0,0,0,0,G],
          [S,0,0,0,0,0]]
 
 where S and G represents start and goal position
+
+Orientations:
+    0: Towards East
+    1: Towards South
+    2: Towards West
+    3: Towards North
+
+Defined Motion:
+Consider a car like motion where the robot can move forward, if
+direction is 3, then forward left will 2 , forward right is 0,
+reverse is 3, reverse left is 0 and reverse right is 2
+
+    2 3 0
+    - 3 -
+    0 3 2
 '''
 
 import numpy as np
