@@ -3,12 +3,11 @@
 Solving shortest path problem in case robot has a defined motion (orientation)
 
 Finding the shortest path
-input = [[0,0,0,0,0,G],
+input = 
 
+         [[0,0,0,0,0,G],
          [0,0,0,0,0,0],
-         
          [0,0,0,0,0,0],
-         
          [S,0,0,0,0,0]]
 
 where S and G represents start and goal position
