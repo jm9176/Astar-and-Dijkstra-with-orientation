@@ -2,7 +2,7 @@
 
 Solving shortest path problem in case robot has a defined motion (orientation)
 
-Finding the shortest path
+Finding the shortest path for the
 input = 
 
          [[0,0,0,0,0,G],
@@ -19,6 +19,7 @@ Orientations:
     3: Towards North
 
 Defined Motion:
+
 Consider a car like motion where the robot can move forward, if
 direction is 3, then forward left will 2 , forward right is 0,
 reverse is 3, reverse left is 0 and reverse right is 2. Moreover, 
