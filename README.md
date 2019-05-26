@@ -13,6 +13,7 @@ input =
 where S and G represents start and goal position
 
 Orientations:
+
     0: Towards East
     1: Towards South
     2: Towards West
